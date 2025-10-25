@@ -31,7 +31,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './public'  # Despliega todo el repo (o cambia a './public' si tienes subcarpeta)
+          path: '.'  
 
       - name: Deploy to GitHub Pages
         id: deployment
